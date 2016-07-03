@@ -1,0 +1,31 @@
+{
+  "name": "StartActivity",
+  "version": "0.0.1",
+  "description": "Start Activity Cordova plugin",
+  "cordova": {
+    "id": "com.cordova.plugins.startactivity",
+    "platforms": [
+      "android"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ognenk/cordova-plugin-startactivity.git"
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.0.0"
+    }
+  ],
+  "author": "Ognen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ognenk/cordova-plugin-startactivity/issues"
+  },
+  "homepage": "https://github.com/ognenk/cordova-plugin-startactivity#readme"
+}
