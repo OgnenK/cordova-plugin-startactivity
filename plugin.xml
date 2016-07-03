@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+
+<plugin id="com.cordova.plugins.startactivity"
+ version="0.0.1"
+
+ xmlns="http://apache.org/cordova/ns/plugins/1.0"
+
+ xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+<name>StartActivity</name>
+
+
+<engines>
+  <engine name="cordova" version=">=3.0.0" />
+</engines>
+
+<js-module name="StartActivity" src="www/StartActivity.js">
+
+  <clobbers target="cordova.plugins.StartActivity" />
+
+</js-module>
+
+
+
+<platform name="android">
+
+
+
+<config-file parent="/*" target="res/xml/config.xml">
+
+<feature name="StartActivity">
+<param name="android-package" value="com.cordova.plugins.startactivity.StartActivity" />
+</feature>
+</config-file>
+
+
+
+<config-file parent="/*" target="AndroidManifest.xml">
+
+	<uses-permission android:name="android.permission.INTERNET" />
+</config-file>
+
+
+
+<source-file src="src/android/StartActivity.java" target-dir="src/com/cordova/plugins/startactivity" />
+
+
+
+</platform></plugin>
